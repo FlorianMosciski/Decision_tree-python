@@ -1,4 +1,4 @@
-#coding:utf-8
+*coding:utf-8
 import matplotlib.pyplot as plt
 from pylab import mpl
 mpl.rcParams['font.sans-serif'] = ['SimHei']
@@ -68,8 +68,8 @@ def createPlot(inTree):
     plotTree.xOff = -0.5 / plotTree.totalw
     plotTree.yOff = 1.0
     plotTree(inTree, (0.5, 1.0), '')
-    #plt.show()
-#ID3决策树
+    *plt.show()
+!ID3决策树
 def ID3_Tree(inTree):
     fig = plt.figure(1, facecolor='white')
     fig.clf()
@@ -83,7 +83,7 @@ def ID3_Tree(inTree):
     plt.title("ID3决策树",fontsize=12,color='red')
     plt.show()
 
-#C4.5决策树
+!C4.5决策树
 def C45_Tree(inTree):
     fig = plt.figure(2, facecolor='white')
     fig.clf()
@@ -111,3 +111,4 @@ def CART_Tree(inTree):
     plt.title("CART决策树",fontsize=12,color='red')
     plt.show()
 
+ 
